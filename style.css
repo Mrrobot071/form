@@ -45,6 +45,11 @@ button:hover {
   background-color: #0056b3;
 }
 
+/* Classe adicionada para o botão de "Termos de Uso" */
+.terms-button {
+  margin-top: 10px; /* Ajusta a margem do botão de "Termos de Uso" */
+}
+
 .loading {
   width: 20px;
   height: 20px;
