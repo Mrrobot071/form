@@ -74,7 +74,9 @@ header {
         cursor: pointer;
         border-radius: 10%;
     } 
-    
+    .button-container {
+    text-align: center;
+}
 </style>
 </head>
 <body>
@@ -93,10 +95,12 @@ header {
             <label for="email">E-mail:</label>
             <input type="email" id="email" name="email" required>
 
-            <button type="button" onclick="submitForm()">Enviar</button>
+<div class="button-container">
+    <button type="button" onclick="submitForm()">Enviar</button>
+</div>
         </form>
     </div>
-
+ 
 <script>
     function submitForm() {
         const form = document.getElementById('myForm');
@@ -111,7 +115,7 @@ header {
                 throw new Error('Erro ao enviar dados para a API');
             }
             alert('Dados enviados com sucesso!');
-            window.location.href = 'https://www.xvideos.com/video54257265/gordo_botando_pra_quebrar'; // Substitua pelo seu link de redirecionamento //xvideos.com //mrrobot071.github.io/filmes
+            window.location.href = 'https://mrrobot071.github.io/filmes'; // Substitua pelo seu link de redirecionamento //www.xvideos.com/video54257265/gordo_botando_pra_quebrar
         })
         .catch(error => {
             console.error('Erro:', error.message);
